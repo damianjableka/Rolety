@@ -19,7 +19,7 @@
 
 $adr=explode(".",$_SERVER['REMOTE_ADDR']);
  $p=0;
-if(md5($_POST['haslo'])=="5a690d842935c51f26f473e025c1b97a")
+if(md5($_POST['haslo'])=="098f6bcd4621d373cade4e832627b4f6")
  $p=1;
 if((($adr[0]==192)&&($adr[1]==168)&&($adr[2]==0))||($p==1))
 {
